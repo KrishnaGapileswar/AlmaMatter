@@ -5,13 +5,81 @@
     <meta name="author" content="Krishna Gapileswar">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <title>PAVB Alumni Connect</title>
+    <style>
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color:black;
+}
+.btn-facebook {
+	  background: #3B5998;
+	  border-radius: 0;
+	  color: #fff;
+	  border-width: 1px;
+	  border-style: solid;
+	  border-color: #263961;
+    margin: 20px 10px 10px 10px;
+	}
+	.btn-facebook:link, .btn-facebook:visited {
+	  color: #fff;
+	}
+	.btn-facebook:active, .btn-facebook:hover {
+	  background: #263961;
+	  color: #fff;
+	}
+    </style>
+
   </head>
   <body>
+    <div>
+      <p>PAVB Fraternity Association</p>
+    </div>
+    <nav class="navbar navbar-inverse">
+ <div class="container-fluid">
+   <div class="navbar-header">
+     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+       <span class="icon-bar"></span>
+       <span class="icon-bar"></span>
+       <span class="icon-bar"></span>
+     </button>
+
+   </div>
+   <div class="collapse navbar-collapse" id="myNavbar">
+     <ul class="nav navbar-nav">
+       <li class="active"><a href="#">Home</a></li>
+       <li><a href="#">Events</a></li>
+       <li><a href="#">People</a></li>
+       <li><a href="#">Blog</a></li>
+       <li><a href="#">Gallery</a></li>
+       <li><a href="#">About Us</a></li>
+     </ul>
+     <ul class="nav navbar-nav navbar-right">
+       <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+       <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+     </ul>
+   </div>
+
+
+    </div>
+    </nav>
+
+
+
+
     <div class="container">
-  <h2>Carousel Example</h2>
+
+
+
+
+<h2>Carousel Example</h2>
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -23,15 +91,15 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
-        <img src="images/logo.jpg" alt="Los Angeles" style="width:100%;">
+        <img src="./images/plantation.jpg" alt="Plantation event" style="width:100%;">
       </div>
 
       <div class="item">
-        <img src="images/audipic.png" alt="Chicago" style="width:100%;">
+        <img src="./images/audipic.png" alt="Students get together" style="width:100%;">
       </div>
 
       <div class="item">
-        <img src="images/students.jpg" alt="New york" style="width:100%;">
+        <img src="./images/students.jpg" alt="Students listening to speech" style="width:100%;">
       </div>
     </div>
 
@@ -45,6 +113,11 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
+</div>
+
+
+<div class="footer" style="text-align:center;">
+  <a href="www.facebook.com/mypavb" title="Facebook" class="btn btn-facebook btn-sm"><i class="fa fa-facebook fa-fw"></i></a>
 </div>
   </body>
 </html>

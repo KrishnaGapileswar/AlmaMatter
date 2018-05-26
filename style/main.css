@@ -14,6 +14,13 @@
 }
 
 
+#aboutus{
+	font-family: font-family: 'Bree Serif', serif;
+	font-size: 18px;
+	text-align: center;
+}
+
+
 #ac-wrapper {
 position: fixed;
 top: 0;

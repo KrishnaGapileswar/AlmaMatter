@@ -12,6 +12,8 @@
 	font-family: 'Aladin', cursive;
 	font-size: 5vw;
 }
+
+@media screen and (min-width: 480px){
 .event{
 	background-image: url('../images/bg-1.jpg');
 	display: block;
@@ -23,4 +25,20 @@
     color: white;
 	text-align: center;
 	
+}
+}
+
+
+@media screen and (max-width: 480px){
+	.event{
+		background-image: url('../images/res.jpg');
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    width: 90%;
+	    height: 650px;
+	    font-size: 40px;
+	    color: white;
+		text-align: center;
+}	
 }
